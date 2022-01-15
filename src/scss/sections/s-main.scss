@@ -1,0 +1,17 @@
+.s-main {
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  &::after {
+    content: '';
+    @include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0);
+    background:
+            url("../img/section-main/section_1-svg_1.svg") 90% -10% no-repeat,
+            url("../img/section-main/section_1-svg_2.svg") -5% 40% no-repeat,
+            url("../img/section-main/section_1-svg_3.svg") 105% 90% no-repeat,
+            rgba(#000, 0.3);
+    background-size: 30px 40px, 20%, 30%;
+  }
+}
