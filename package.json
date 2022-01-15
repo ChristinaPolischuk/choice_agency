@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp --production"
+    "build": "gulp --production",
+    "deploy": "gh-pages -d public"
   },
   "browserslist": [
     "last 3 versions"
@@ -18,6 +19,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/senyqy/choice_agency.git",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
@@ -25,6 +27,7 @@
     "bootstrap": "^5.1.3",
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
+    "gh-pages": "^3.2.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
